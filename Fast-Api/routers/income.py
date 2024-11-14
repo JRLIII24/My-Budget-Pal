@@ -1,7 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from models import Income
-from typing import List, Optional
-from datetime import date
+from typing import List
 
 router = APIRouter()
 
